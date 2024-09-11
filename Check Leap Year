@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int d;
+    printf("Enter the number days : ");
+    scanf("%d",&d);
+    if(d == 366)
+    {
+        printf("Leap year");
+    }
+    else
+    {
+        printf("Not a leap year");
+    }
+    return 0;
+}
