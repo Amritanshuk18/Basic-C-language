@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Please enter a number : ");
+    scanf("%d",&a);
+    if (a>=0)
+    printf("The no is a +ve number");
+    else
+    printf("The no is a -ve number");
+    return 0;
+}
