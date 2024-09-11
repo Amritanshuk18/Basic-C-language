@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int r;
+    printf("Enter the roll no : ");
+    scanf("%d",&r);
+    float m;
+    printf("Enter the marks : ");
+    scanf("%f",&m);
+    char ch;
+    printf("Enter the Gender : ");
+    scanf(" %c",&ch,1);
+    printf("Roll no = %d\n",r);
+    printf("Marks = %f\n",m);
+    printf("Gender = %c\n",ch);
+    return 0;
+}
